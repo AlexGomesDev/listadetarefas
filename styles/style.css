@@ -5,11 +5,10 @@
 }
 
 body{
-    background-color: rgb(248, 236, 170);
+    background-color: rgb(224, 215, 193);
 }
 
 #container{
-    background-color: mediumspringgreen;
     max-width: 800px;
     margin: auto; 
     margin-top: 50px;  
@@ -19,6 +18,7 @@ header{
     background-color: rgb(127, 164, 199);
     text-align: center;
     padding: 20px;
+    border-radius: 10px 10px 0 0;
 }
 
 #textoInput{
@@ -36,16 +36,17 @@ button{
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #btnAdd{
-width: 120px;
-background-color: rgb(85, 235, 123);
-color: rgb(0, 0, 0);
+    width: 120px;
+    background-color: rgb(85, 235, 123);
+    color: rgb(0, 0, 0);
 }
 
 #chk{
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 #btnApagar{
@@ -56,17 +57,15 @@ margin-right: 20px;
 }
 
 .btnDel{    
-     color: rgb(0, 0, 0);
-     background-color: rgb(255, 211, 16);
-     border: 1px solid red;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 236, 152);
+    border: 2px solid red;
     position: absolute;
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 5px;    
 }
 
 #divLista{
@@ -95,4 +94,5 @@ footer{
     background-color: aliceblue;
     text-align: center;
     padding: 10px;
+    border-radius: 0 0 10px 10px;
 }

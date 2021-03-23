@@ -84,7 +84,7 @@ function telaRefresh() {
 
     for (let t of tarefas) {
         // console.log(tarefas)
-        list = list + "<li id-data=" + t.id + "><input id="+"chk"+" type="+"checkbox"+">" + t.descricao +
+        list = list + "<li id-data=" + t.id + "><input id=" + "chk" + " type=" + "checkbox" + ">" + t.descricao +
             "<button class=" + "btnDel" + " onclick=deletarTarefa(this) id= " + t.id + ">Excluir</button>" + "</li>"
     };
     list = list + "</ul>";
@@ -99,11 +99,11 @@ function deletarTudo() {
     location.reload();
 }
 
-function validaAdd(){
+function validaAdd() {
     let tarefaDescricao = document.getElementById("textoInput").value;
-    if (tarefaDescricao != ""){
+    if (tarefaDescricao != "") {
         incluiTarefa();
-    } else{
+    } else {
         alert("Por favor, descreva a tarefa que deseja adicionar!");
     }
 }
